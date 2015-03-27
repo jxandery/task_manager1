@@ -1,0 +1,6 @@
+<form action="/tasks" method="post">                     # here we have a form with an action (url path) of /tasks and a method of post. This combination of path and verb will be important when we create the route in the controller.
+  <p>Enter a new task:</p>
+  <input type='text' name='task[title]'/><br/>           # we then have a text imput field for the title,
+  <textarea name='task[desctiption]'></textarea><br/>    # a text area for the description,
+  <input type='submit'/>                                 # and a submit button
+</form>
